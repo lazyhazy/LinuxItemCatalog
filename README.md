@@ -81,7 +81,7 @@ JSON Endpoint: http://52.66.214.141/catalog/JSON
 	```
 6. Give user "catalog" permission to "catalog" application database
     	```
-    	postgres=# GRANT ALL PRIVILEGES ON DATABASE catalog TO catalog;
+	postgres=# GRANT ALL PRIVILEGES ON DATABASE catalog TO catalog;
 	```
 7. Quit postgreSQL `postgres=# \q`
 8. Exit from user "postgres"
