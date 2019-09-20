@@ -76,19 +76,15 @@ JSON Endpoint: http://52.66.214.141/catalog/JSON
 5. Create a new database named catalog  and create a new user named catalog in postgreSQL shell
 	
 	```
-	  postgres=# CREATE DATABASE catalog;
-    postgres=# CREATE USER catalog WITH PASSWORD 'UdacityCatalog';
-    
-    ```
+	postgres=# CREATE DATABASE catalog;
+	postgres=# CREATE USER catalog WITH PASSWORD 'UdacityCatalog';
+	```
 6. Give user "catalog" permission to "catalog" application database
-    	
     	```
     	postgres=# GRANT ALL PRIVILEGES ON DATABASE catalog TO catalog;
-
-      ```
+	```
 7. Quit postgreSQL `postgres=# \q`
-8. Exit from user "postgres" 
-      	
+8. Exit from user "postgres"
       	```
       	exit
       	```
