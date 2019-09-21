@@ -1,5 +1,5 @@
-# Linux Server Configuration
-A project to set up a Linux server. Item Catalog web application runs live on Amazon Lightsail secure web server. A baseline installation of a Linux distribution on a virtual machine is taken and prepared to host the web application, installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.
+# Linux Server Configuration - Item Catalog
+A project to set up a Linux server for Item Catalog web application runs live on Amazon Lightsail secure web server. 
 
 The item catalog is a web application that displays an item catalog allowing the user to login and add, manage items they add. It interacts with a sqlite database using SQLAlchemy, an Object-Relational Mapping (ORM) layer. The CRUD (create, read, update and delete) operations and web page templates are handled using Python Flask framework. OAuth 2.0 framework allows users to securely login to the application using Google+ Sign-In so users can create items that are viewable by everyone but only modifiable by the original creator. This application also provides a JSON endpoint.</br>
 
